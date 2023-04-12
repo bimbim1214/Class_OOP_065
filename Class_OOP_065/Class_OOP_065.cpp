@@ -19,4 +19,10 @@ public:
     void prinntData();
 };
 
+void Mahasiswa::prinntData() {
+    cout << "\nData Mahsiswa : ";
+    cout << "\nNIM : " << nim;
+    cout << "\nnamanya : " << nama;
+    cout << "\nnilai : " << nilai;
 }
+
